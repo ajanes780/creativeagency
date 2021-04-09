@@ -1,8 +1,9 @@
 import "./App.scss";
-import { HeaderComponent } from "./components/HeaderComponent";
 import { HomeComponent } from "./components/home/HomeComponent";
 import { WorkPageComponent } from "./components/workpage/WorkPageComponent";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HeaderComponent } from "./components/header/HeaderComponent";
+import { ContactComponent } from "./components/contact/ContactComponet";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeComponent} />
           <Route path="/work" component={WorkPageComponent} />
+          <Route path="/contact" component={ContactComponent} />
         </Switch>
       </Router>
     </div>

@@ -20,7 +20,7 @@ import item16 from "../../assets/portfolio-item16.jpg";
 
 export const WorkPageComponent = () => (
   <section>
-    <div class="title">
+    <div className="title">
       <h1>Some of our finest work</h1>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
@@ -32,100 +32,100 @@ export const WorkPageComponent = () => (
       </p>
     </div>
 
-    <div class="portfolio">
-      <div class="item">
+    <div className="portfolio">
+      <div className="item">
         <img src={item1} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item2} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item3} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item4} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item5} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item6} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item7} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item8} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item9} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item10} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item11} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item12} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item13} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item14} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item15} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
-      <div class="item">
+      <div className="item">
         <img src={item16} alt="" />
-        <div class="action">
+        <div className="action">
           <a href="#">Launch</a>
         </div>
       </div>
