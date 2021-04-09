@@ -1,6 +1,8 @@
 import React from "react";
 import "./homeComponentStyle.scss";
 import homeImage from "../../assets/home-img.jpg";
+import { Link } from "react-router-dom";
+
 export const HomeComponent = () => (
   <section class="home">
     <img src={homeImage} class="home-img" alt="" />
@@ -14,9 +16,9 @@ export const HomeComponent = () => (
         saepe vero voluptatem vel fuga a eaque earum alias ipsam aspernatur
         culpa maxime laboriosam, impedit quae officiis consectetur
       </p>
-      <a href="contact.html" class="btn">
+      <Link to="/contact" class="btn">
         Get Started
-      </a>
+      </Link>
     </div>
   </section>
 );
