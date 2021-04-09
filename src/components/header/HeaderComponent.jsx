@@ -29,7 +29,7 @@ export const HeaderComponent = () => {
           </li>
           <li>
             <Link to="/services">
-              <h3 onclick={handleClick}>Services</h3>
+              <h3 onClick={handleClick}>Services</h3>
             </Link>
           </li>
           <li>
